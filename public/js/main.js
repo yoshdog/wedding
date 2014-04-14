@@ -6,8 +6,8 @@
 	
 		jQuery('#countdown_dashboard').countDown({
 				targetDate: {
-					'day': 		7, // Put the date here
-					'month': 	5, // Month
+					'day': 		26, // Put the date here
+					'month': 	10, // Month
 					'year': 	2014, // Year
 					'hour': 	0,
 					'min': 		0,
