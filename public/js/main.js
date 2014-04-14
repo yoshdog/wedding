@@ -78,7 +78,7 @@
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
 										{image : 'img/sf.jpg'},
-										{image : 'img/paris1.jpg'},  
+										{image : 'img/venice.jpg'},  
 										{image : 'img/rome1.jpg'}
 									]
 		});	

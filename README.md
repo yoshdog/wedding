@@ -1,1 +1,2 @@
-# Sinatra Web App for Toan & Giaos Wedding website
+# Toan & Giaos Wedding website
+Built with Sinatra

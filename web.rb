@@ -8,7 +8,7 @@ class Web < Sinatra::Base
 	end
 
 	get '/' do
-		redirect '/index.html'
+		send_file 'public/index.html'
 	end
 
 end
