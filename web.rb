@@ -1,5 +1,14 @@
-require 'sinatra'
+require 'sinatra/base'
 
-get '/' do
-	'hello world!'
+class Web < Sinatra::Base
+
+	configure do
+		set :public_folder, 'public'
+
+	end
+
+	get '/' do
+		redirect '/index.html'
+	end
+
 end
