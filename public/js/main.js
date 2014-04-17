@@ -40,14 +40,16 @@
 			
 		/* Gallery
 		================================================== */
+		/*
 		new Photostack( document.getElementById( 'photostack' ), {
 			callback : function( item ) {
 				//console.log(item)
 			}
 		} );	
-			
+		*/	
 			/* Gallery popup
 		=================================================== */	
+		/*
 		$('.photostack').magnificPopup({
 			delegate: 'a',
 			type: 'image',
@@ -64,21 +66,17 @@
 					return item.el.attr('title');
 				}
 			},
-			/* zoom: {
-				enabled: true,
-				duration: 300 // don't foget to change the duration also in CSS
-			} */
 		});
-		
+		*/
+
 		//Home Background slider
 		jQuery.supersized({	
-		slide_interval          :   6000,		// Length between transitions
+		slide_interval          :   7000,		// Length between transitions
 		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 		transition_speed		:	700,		// Speed of transition				
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
-										{image : 'img/sf.jpg'},
-										{image : 'img/venice.jpg'},  
+										{image : 'img/sf.jpg'}, 
 										{image : 'img/rome1.jpg'}
 									]
 		});	
