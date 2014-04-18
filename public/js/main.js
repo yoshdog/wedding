@@ -4,6 +4,8 @@
 	
     $(document).ready(function(){
 	
+		console.log("Oh hi there Mr Hacker! No point poking around here, you can view my code at: http://github.com/yoshdog");
+
 		jQuery('#countdown_dashboard').countDown({
 				targetDate: {
 					'day': 		26, // Put the date here
