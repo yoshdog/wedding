@@ -1,2 +1,2 @@
-# Toan & Giaos Wedding website
+# Wedding Website
 Built with Sinatra
